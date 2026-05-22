@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            height: 80px;
+            width: 90px;
+            position: absolute;
+            margin-left: 600px;
+            margin-top: 20px;
+            background-color: aqua;
+            color: lightseagreen;
+            border: solid green;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+            cursor: pointer;
+            animation: float 2s infinite ease-in-out;
+        }
+        button:active {
+    height: 70px;
+    width: 100px;
+    box-shadow: 5px 5px 10px black;
+    transform: rotate(10deg);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+body {
+    background: linear-gradient(to right, pink 32%, lightseagreen 66%);
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+.section {
+    background: rgba(255,255,255,0.3);
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 15px;
+}
+
+    </style>
+</head>
+<body>
+<button>Click me to see the button go in and then out.</button>
+<H2>What I am doing right now:</H2>
+<ul>
+    <li>finishing up some toches on index.html</li>
+    <li>make a snake game</li>
+    <li>make a Tetris game</li>
+    <li>make a Galaxy clicker game</li>
+</ul>
+
+<div class="section">
+    <h2>What I'm Learning</h2>
+    <ul>
+        <li>HTML structure</li>
+        <li>CSS styling</li>
+        <li>JavaScript</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Contact me</h2>
+    <p>please gmail me at georgeknab@crownla.org.</p>
+    <p>I might not get back to you but I will try.</p>
+</div>
+<div class="section">
+    <h2>Help me</h2>
+    <p>please help me make more amazing games</p>
+    </div>
+    <div class="section">
+    <h2>Play a game</h2>
+    <p>here is a minecraft wesbite I made <u>https://georgeknab-collab.github.io/My-2nd-website/</u></p>
+    </div>
+</body>
+</html>
